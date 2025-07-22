@@ -1,0 +1,36 @@
+{
+  "name": "@johnowennixon/pipe-exit",
+  "version": "1.0.0",
+  "description": "Pass stdin to stdout but exit 1 if there is any input",
+  "keywords": [
+    "pipe"
+  ],
+  "license": "0BSD",
+  "author": {
+    "email": "john.owen.nixon@gmail.com",
+    "name": "John Owen Nixon",
+    "url": "https://johnowennixon.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnowennixon/pipe-exit.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "files": [
+    "pipe-exit.js"
+  ],
+  "bin": {
+    "pipe-exit": "pipe-exit.js"
+  },
+  "scripts": {
+    "lint": "biome check",
+    "test": "exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "2.1.2"
+  }
+}
