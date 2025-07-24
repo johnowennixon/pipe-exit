@@ -1,6 +1,6 @@
 {
   "name": "@johnowennixon/pipe-exit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pass stdin to stdout but exit 1 if there is any input",
   "keywords": [
     "pipe"
